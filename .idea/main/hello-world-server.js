@@ -27,5 +27,29 @@ http.createServer((req, res) => {
 // console.log(process.env);
 // console.log(process.env[JAVA_HOME]);
 
-const calc = require('./addCalculator');
-console.log("calc.add 함수 호출 결과 : %d", calc.add(10, 10));
+// const calc = require('./addCalculator');
+// console.log("calc.add 함수 호출 결과 : %d", calc.add(10, 10));
+
+// const nconf = require('nconf');
+// nconf.env();
+// console.log("JAVA_HOME 환경변수의 값 : %s", nconf.get("JAVA_HOME"));
+
+// const os = require("os");
+// console.log("시스템 hostname : %s", os.hostname());
+// console.log("시스템 메모리 : %d / %d", os.freemem(), os.totalmem());
+// console.log("시스템 CPU\n");
+// console.dir(os.cpus());
+// console.log("시스템 네트워크 인터페이스 정보\n");
+// console.dir(os.networkInterfaces());
+
+// const path = require("path");
+// const directories = ["users", "mike", "docs"];
+// const docsDirectory = directories.join(path.sep);
+// console.log("문서 디렉터리 : %s", docsDirectory);
+// const curPath = path.join("/Users/m", "notepad.exe");
+// console.log("파일 패스 : %s", curPath);
+// const filename = "C:\\Users\\mike\\notepad.exe";
+// const dirname = path.dirname(filename);
+// const basename = path.basename(filename);
+// const extname = path.extname(filename);
+// console.log('디렉터리 : %s, 파일이름 : %s, 확장자 : %s', dirname, basename, extname);
