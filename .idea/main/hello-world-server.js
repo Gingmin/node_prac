@@ -42,14 +42,14 @@ http.createServer((req, res) => {
 // console.log("시스템 네트워크 인터페이스 정보\n");
 // console.dir(os.networkInterfaces());
 
-const path = require("path");
-const directories = ["users", "mike", "docs"];
-const docsDirectory = directories.join(path.sep);
-console.log("문서 디렉터리 : %s", docsDirectory);
-const curPath = path.join("/Users/m", "notepad.exe");
-console.log("파일 패스 : %s", curPath);
-const filename = "C:\\Users\\mike\\notepad.exe";
-const dirname = path.dirname(filename);
-const basename = path.basename(filename);
-const extname = path.extname(filename);
-console.log('디렉터리 : %s, 파일이름 : %s, 확장자 : %s', dirname, basename, extname);
+// const path = require("path");
+// const directories = ["users", "mike", "docs"];
+// const docsDirectory = directories.join(path.sep);
+// console.log("문서 디렉터리 : %s", docsDirectory);
+// const curPath = path.join("/Users/m", "notepad.exe");
+// console.log("파일 패스 : %s", curPath);
+// const filename = "C:\\Users\\mike\\notepad.exe";
+// const dirname = path.dirname(filename);
+// const basename = path.basename(filename);
+// const extname = path.extname(filename);
+// console.log('디렉터리 : %s, 파일이름 : %s, 확장자 : %s', dirname, basename, extname);
