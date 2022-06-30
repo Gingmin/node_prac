@@ -21,8 +21,11 @@ http.createServer((req, res) => {
 // console.log("argv 속성의 파라미터 수 : " + process.argv.length);
 // console.dir(process.argv);
 
-process.argv.forEach((item, index) => {
-    console.log(index + " : ", item);
-});
-console.log(process.env);
-console.log(process.env[JAVA_HOME]);
+// process.argv.forEach((item, index) => {
+//     console.log(index + " : ", item);
+// });
+// console.log(process.env);
+// console.log(process.env[JAVA_HOME]);
+
+const calc = require('./addCalculator');
+console.log("calc.add 함수 호출 결과 : %d", calc.add(10, 10));
