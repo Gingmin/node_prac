@@ -56,4 +56,10 @@ http.createServer((req, res) => {
 
 // const calc = require('./innerFunction');
 // const url = require('./url');
-const evt = require('./event');
+
+// const evt = require('./event');
+// const calc = new evt();
+// calc.emit('stop');
+// console.log(evt.title + '에 stop이벤트 전달');
+
+const fs = require('./io');
