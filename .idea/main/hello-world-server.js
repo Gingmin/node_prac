@@ -1,9 +1,9 @@
 // server
-const http = require("http");
-http.createServer((req, res) => {
-    res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("Hello World");
-}).listen(1337, "127.0.0.1");
+// const http = require("http");
+// http.createServer((req, res) => {
+//     res.writeHead(200, { "Content-Type": "text/plain" });
+//     res.end("Hello World");
+// }).listen(1337, "127.0.0.1");
 // console.log("Server running at http://127.0.0.1:1337/")
 //
 // let result = 0;
@@ -62,4 +62,13 @@ http.createServer((req, res) => {
 // calc.emit('stop');
 // console.log(evt.title + '에 stop이벤트 전달');
 
-const fs = require('./io');
+// const fs = require('./io');
+
+// const fs = require('fs');
+// const http = require('http');
+// const server = http.createServer(function(req, res) {
+//    const instream = fs.createReadStream('./output.txt');
+//    instream.pipe(res);
+// });
+// server.listen(7001, '127.0.0.1');
+// const log = require('./logTest');
